@@ -9,7 +9,7 @@ namespace TestProject.Controllers
         [HttpGet]   
         public IActionResult GetAll()
         {
-            //test 1 nè
+            // Test 2 nè
             string[] listName = ["Cong ty A", "Cong Ty B"];
             return Ok(listName);
         }
